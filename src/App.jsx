@@ -36,7 +36,6 @@ function App() {
       );
       setWeather(res.data);
       setCityNotFound(false);
-      console.log(res.data);
     } catch (error) {
       console.error("Error fetching weather data:", error);
       setCityNotFound(true);
